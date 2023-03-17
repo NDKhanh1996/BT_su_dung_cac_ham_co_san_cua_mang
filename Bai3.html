@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let str = prompt("Nhập chuỗi vào đây")
+  let newStr = ''
+  for (let i = 0; i < str.length; i++) {
+    let wrd = str.charAt(i)
+    if (wrd == wrd.toUpperCase()){
+      wrd = wrd.toLowerCase()
+    }else {
+        wrd = wrd.toUpperCase()
+    }newStr += wrd
+  }document.write(newStr)
+</script>
+
+</body>
+</html>
